@@ -11,6 +11,7 @@
   <!-- Service worker support is disabled by default.
        Install the worker script and uncomment to enable.
        Only enable service workers in production.
+       -->
   <script type="text/javascript">
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/worker.js').catch(function(err) {
@@ -28,7 +29,6 @@
       }
     })();
   </script>
-  -->
 </head>
 <body>
   <toh-app>Loading...</toh-app>
